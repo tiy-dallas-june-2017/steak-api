@@ -45,6 +45,8 @@ var get = function(req, res) {
 
 app.get('/api/steak', get);
 
-app.listen(5008, function() {
-  console.log('Listening on port 5008');
+let PORT = process.env.PORT || 5008;
+
+app.listen(PORT, function() {
+  console.log('Listening on port ', PORT);
 });
