@@ -22,7 +22,7 @@ var get = function(req, res) {
       {
         name: 'blue',
         description: 'seared outside, 1 minute each side, ensure all edges are sealed.',
-        imageUrl: 'http://i1095.photobucket.com/albums/i462/kieranbilginer/P1010048-1.jpg'
+        imageUrl: 'http://www.colinmcnulty.com/blog/images/blue-steak-and-chips.jpg'
       },
       {
         name: 'rare',
